@@ -2,7 +2,7 @@
 
 function hangry_scripts() {
     // styles
-    wp_enqueue_style( 'bs', get_stylesheet_directory_uri() . '/vendor/bootstrap.min.css', array(), '', false );
+    wp_enqueue_style( 'bs', get_stylesheet_directory_uri() . '/vendor/stylesheets/bootstrap.min.css', array(), '', false );
     wp_enqueue_style( 'hangry-theme', get_stylesheet_directory_uri() . '/css/theme.min.css', array(), '', false );
 
     // scripts
