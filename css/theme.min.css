@@ -8,15 +8,46 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   text-align: center;
-  color: #fff; }
+  color: #fff;
+  max-width: 300px;
+  margin: 0 auto; }
 
 #email-signup {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
+  color: #fff;
   bottom: 0px;
   left: 0px;
   right: 0px;
-  width: 100%; }
+  width: 100%;
+  padding: 20px 0px; }
+  #email-signup .esu-form-div {
+    display: block; }
+  #email-signup form {
+    margin: 0px; }
   #email-signup ul {
     text-align: center;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-left: 0px; }
+    #email-signup ul li {
+      display: inline-block; }
+  #email-signup input[type=text],
+  #email-signup input[type=email] {
+    color: #656565; }
+  #email-signup input[type=text]:focus,
+  #email-signup input[type=email]:focus {
+    outline: none;
+    border: none; }
+  #email-signup .esu-submit {
+    background-color: #19a94a;
+    padding: 2px 24px;
+    font-size: 1em;
+    border: none;
+    outline: none;
+    color: #fff; }
+
+body {
+  color: #656565; }
+
+img {
+  max-width: 100%; }

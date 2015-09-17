@@ -1,12 +1,36 @@
 #email-signup {
-	background-color: rgba(0,0,0,0.9);
+	background-color: rgba(0,0,0,0.7);
 	position: absolute;
+	color: $c-w;
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
 	width: 100%;
+	padding: 20px 0px;
+	.esu-form-div {
+		display: block;
+	}
+	form {
+		margin: 0px;
+	}
 	ul {
 		text-align: center;
 		margin: 0 auto;
+		padding-left: 0px;
+		li {
+			display: inline-block;
+		}
+	}
+	input[type=text],
+	input[type=email] {
+		color: $c-body;
+	}
+	input[type=text]:focus,
+	input[type=email]:focus {
+		outline: none;
+		border: none;
+	}
+	.esu-submit {
+		@include solid-button($c-primary);
 	}
 }

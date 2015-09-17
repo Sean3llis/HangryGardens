@@ -5,3 +5,22 @@
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+$btn-padding: 2px 24px;
+@mixin solid-button($color){
+	background-color: $color;
+	padding: $btn-padding;
+	font-size: 1em;
+	border: none;
+	outline: none;
+	color: $c-w;
+}
+
+@mixin hollow-button($color){
+	background-color: transparent;
+	padding: $btn-padding;
+	font-size: 1em;
+	border: none;
+	border: 2px solid $color;
+	outline: none;
+	color: $c-w;
+}

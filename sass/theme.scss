@@ -4,3 +4,11 @@
 @import 'partials/hero';
 @import 'partials/splash';
 @import 'partials/signup';
+
+body {
+	color: $c-body;
+}
+
+img {
+	max-width: 100%;
+}
