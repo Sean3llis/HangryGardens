@@ -13,5 +13,8 @@
 			<?php $logo = get_field('logo'); ?>
 			<img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>">
 		</div>
+
+		<?php get_template_part('partials/form', 'signup'); ?>
+
 	</body>
 </html>
